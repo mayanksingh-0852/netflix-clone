@@ -19,7 +19,7 @@ body{
 }
 
 .main .box{
-  height: 644vh;
+  height: 100%;
   width: 100%;
   opacity: 0.7;
   position: absolute;
@@ -136,7 +136,6 @@ nav button{
 }
 
 
-
 .secImg {
   position: relative;
   margin-top: 10px;
@@ -204,17 +203,34 @@ section.first > div{
 }
 
 footer{
+  color:#fff;
+  position: relative;
+  max-width:60vw;
+  margin:10px auto;
+  padding: 14px;
+}
+
+.question{
+  padding:34px 0;
+}
+
+.footer{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   position: relative;
   color:#fff;
-  max-width:60vw;
-  margin:auto;
   font-family:sans-serif;
+}
+
+footer a{
+  text-decoration: none;
+  color:#fff;
+  font-size: 14px;
 }
 
 .footer-item{
   display:flex;
   flex-direction:column;
   justify-content:center;
+  gap:23px;
 }
